@@ -1,0 +1,164 @@
+body{
+font-family: 'Palanquin', sans-serif;   
+}
+
+.k-font-head{font-size: 45px;
+color: rgb(20, 161, 138);
+font-weight: 400;;
+}
+
+/* home page header */
+.container-fluid{
+    background-color: rgb(20, 161, 138);}
+.k-header-s2{
+    background-image: url(./img/slider3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px 0px;
+    padding-bottom: 180PX;}
+.bg-header{
+    background: linear-gradient(rgba(109, 140, 148, 0.4),rgb(109, 140, 148,.4));}
+.bg-header:hover{
+    background: linear-gradient(rgba(63, 83, 88, 0.5),rgba(63, 82, 87, 0.5));}
+#k-search{color: white;
+    width:50%;
+    border:3px solid gray;
+    margin-bottom: 30px;
+    padding: 5px;
+    background: transparent;}
+.fa-magnifying-glass{
+    margin-right: 10px;}
+#k-btn1{color: white;
+    border: none;
+    background-color: rgb(20, 161, 138);
+    padding: 7px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgb(20, 161, 138);
+    border-radius: 7px;} /* home page end-header */
+
+/* parallex image */
+.parallax{
+        background-image: url("./img/resort5.jpg");
+        height:100%; /* Full height */
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+/* popular destination */
+.card{ margin: 20px;}
+.k-btn2{color:white;
+    text-decoration: none;
+    border: none;}
+.k-btn2:hover{color:white;
+    text-decoration: none;
+    border-bottom: none;
+    box-shadow: 1px 1px 2px 2px  #14525c ;
+    background-color: #0e6b7a;}
+.card-footer{background-color: #0e6b7a;}
+.card-footer>a{text-transform: uppercase; }/*home page end-popular destination */
+
+/* footer */
+footer{background-color: rgb(20, 161, 138);
+    color: white;}
+hr{border: 1px solid white;}
+.fa-4x{color: white;
+    font-size: 35px;
+    margin:7px;}
+
+/*Start contact form */
+.k-contact-d2{color: white;
+    background-color: rgb(20, 161, 138);}
+.form-control{
+    border: none;
+    background-color: rgba(235, 235, 235, 0.918);
+    border-bottom: 1px solid rgb(136, 136, 136);}
+.k-div3{padding: 5px;
+    background-color: rgb(235, 235, 235, 0.918);}
+.fa-address-book{
+    font-size: 25px;}/* End-contact form */
+
+/*Start page signup */
+.k-sec1-signup{ background-image:linear-gradient(rgba(136, 136, 136, 0.4),rgba(143, 143, 143, 0.712));
+            padding: 40px 30px;}
+.k-signup{background-image:linear-gradient(rgba(011,118,116,.4),rgba(111,118,116,.4)),url(./img/slider2.jpg);
+        background-position: center;
+        background-size: cover;}/* End-page signup */
+
+.k-bg .card{background:transparent;
+    background-image:linear-gradient(rgba(136, 136, 136, 0.4),rgba(143, 143, 143, 0.712));}
+/* start Account page*/
+.account hr{border: 1px solid grey;}
+.k-account-div1{margin-top: 30px;}
+#k-a1{text-transform: uppercase;}
+.fa-pencil{margin-left: 10px;}
+.fa-key{margin-left: 10px;}
+
+.fa-id-badge{color: rgb(51, 51, 187);
+    font-size: 35px;
+}
+.fa-square-phone{color: rgb(177, 32, 32);
+    font-size: 35px;
+}
+.fa-user{color: rgb(20, 161, 138);
+    font-size: 35px;
+}
+.fa-envelope{color: #0e6b7a;
+    font-size: 35px;
+}/* End Account page*/
+
+/* change password */
+.Change-sec{margin-top: 48px;
+   margin-bottom: 0px;}
+
+/*Start destination page */
+.k-desti{
+    background: url(./img/resort4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;}
+.k-desti2{background-color: #3745503a;}
+.img-thumbnail{
+    width:220px;
+}
+.fa-angles-right{margin-left: 10px};
+/* photo gallery page index and  destination*/
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(2.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }/* end-destination page */
+
+/* Start confirm page */
+.bogo{
+    margin-top: 115px;
+}
+.k-confirm{margin-top:120px;
+    text-align: center;
+    color: white;
+    background-color: rgb(20, 161, 138);
+}
+
+.fa-rectangle-xmark{
+    margin-left: 10px;
+}
+/* logout page */
+.k-log{padding: 120px;}
+
+/* arrow btn */
+#arrow-btn{
+    height:45px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;}

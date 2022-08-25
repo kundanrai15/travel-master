@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel World Master</title>
+    <link rel="icon" href="Resource/icon img/travel.logo.png">
+    <!-- Font style -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+    </style>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- aos -->
+    <link rel="stylesheet" href="./Resource/aos/aos.css">
+    <script src="./Resource/aos/aos.js"></script>
+    <!-- lightbox -->
+    <link rel="stylesheet" href="./Resource/lightbox/ekko-lightbox.css">
+    <script src="./Resource/lightbox/ekko-lightbox.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./Resource/custom.css">
+  </head>
+  <body>  
+    <header>  
+      <section class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+          <a class="navbar-brand text-white " href="./index.html">TravelWorld</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./Places.html">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./Contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                 Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item"  data-target="#exampleModal"data-toggle="modal" data-whatever="@mdo">Sign in</a>
+                  <a class="dropdown-item" href="./signup.html">Sign up</a>
+                  <a class="dropdown-item" href="./Account.html">My Account</a>
+                  <a class="dropdown-item" href="./logout.html">Logout</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        </section>
+        <section class="k-desti text-center container-fluid my-5 p-5 ">
+          <div class="k-desti2 text-white p-3">
+            <h2 class="">Goa</h2>  
+          </div>
+        </section>
+    </header><!------ End-header  --------->
+    <!-- modal -->
+    <section>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-center k-font-head" >Account</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-info">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end-modal -->
+    <section>
+      <section class="container">
+        <section class="row">
+          <div class="col-sm">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <img src="./Resource/img/resort1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Goa,India</h5>
+                <p class="card-text">This is a wider card with supporting text.</p>
+              </div>
+              <div class="card-footer">
+                <a href="Destination.html" class="k-btn2">more Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm  p-5">
+            <h4 >Select Your Package</h4>
+            <div class="form-check p-3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                <span>2 Nights + 1 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs
+                  10000</span>
+              </label>
+            </div>
+            <div class="form-check p-3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                <span>3 Nights + 2 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs
+                  20000</span>
+              </label>
+            </div>
+            <div class="form-check p-3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option3" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                <span>4 Nights + 4 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs
+                  40000</span>
+              </label>
+            </div>
+            <div class="form-check p-3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option4" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                <span>5 Nights + 5 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs
+                  50000</span>
+              </label>
+            </div>
+            <div class="form-check p-3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                <span>6 Nights + 5 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs
+                  60000</span>
+              </label>
+            </div>
+            <div class="form-check  p-3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                <span>7 Nights + 7 Days &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rs
+                  80000</span>
+              </label>
+            </div>
+            <div class="">
+              <a href="./Confirmbooking.html"> <button type="button" class="btn btn-info">BOOK NOW <i class="fa-solid fa-angles-right"></i></button></a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section>
+      <div class="container p-3">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit exercitationem voluptas quisquam quia facere quis minus accusamus inventore repellendus quidem nobis obcaecati quod, culpa pariatur, voluptate praesentium? Eum alias id numquam! Error similique autem doloremque.</h4>
+      </div>
+    </section>
+    <section class="container my-3"><!--------Photo Gallery  --------->
+      <h4 class="text-center k-font-head">Photo Gallery</h4>
+       <div>
+         <a href="https://source.unsplash.com/1600x900/?nature" ><img src="https://source.unsplash.com/1600x900/?nature" class="img-thumbnail my-3 mx-3 zoom " alt="..."></a>
+         <a href="https://source.unsplash.com/1600x900/?travel"><img src="https://source.unsplash.com/1600x900/?travel" class="img-thumbnail my-3 mx-3 zoom" alt="..."></a>
+         <a href="https://source.unsplash.com/1600x900/?beach"><img src="https://source.unsplash.com/1600x900/?beach" class="img-thumbnail my-3 mx-3 zoom" alt="..."></a>
+         <a href="https://source.unsplash.com/1600x900/?beach,travel"><img src="https://source.unsplash.com/1600x900/?beach,travel" class="img-thumbnail my-3 mx-3 zoom" alt="..."></a>
+       </div>
+    </section>
+    <footer><!------ Footer  --------->
+      <div class="container text-center p-5">
+        <p>Follow us on social media for special offers</p>
+        <a href="https://facebook.com">
+          <i class="fa-brands fa-facebook fa-4x ">facebook</i>
+        </a>
+        <a href="https://instagram.com">
+          <i class="fa-brands fa-instagram fa-4x">instagram</i>
+        </a>
+        <a href="https://linkedin.com">
+          <i class="fa-brands fa-linkedin fa-4x">linkedin</i>
+        </a>
+        <a href="https://twitter.com">
+          <i class="fa-brands fa-twitter fa-4x">twitter</i>
+        </a>
+        <hr>
+        <p>Desgined and Developed by Kundan Rai</p>
+      </div>
+    </footer>
+    <input id="arrow-btn" type="image"src="./Resource/icon img/arrow.logo.png">
+  </body>
+  <script>
+     //script for scroll to top
+   $("#arrow-btn").click(function () {
+            $("html, body").animate({scrollTop: 0}, 1000);
+        });
+  
+  </script>
+</html>
